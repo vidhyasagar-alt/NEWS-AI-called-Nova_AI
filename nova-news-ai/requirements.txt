@@ -1,0 +1,25 @@
+# NOVA - News AI Assistant
+# Install all dependencies with:
+# pip install -r requirements.txt
+
+# Speech Recognition (for wake word detection)
+SpeechRecognition==3.10.4
+pyaudio==0.2.14
+
+# Whisper (offline STT for command recognition)
+openai-whisper==20231117
+
+# Audio recording
+sounddevice==0.4.6
+scipy==1.11.4
+numpy==1.26.2
+
+# Text to Speech
+gTTS==2.5.0
+pygame==2.5.2
+
+# News API
+requests==2.31.0
+
+# Environment variables
+python-dotenv==1.0.0
